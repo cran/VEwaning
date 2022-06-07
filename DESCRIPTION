@@ -1,12 +1,12 @@
 Package: VEwaning
 Type: Package
 Title: Vaccine Efficacy Over Time
-Version: 1.1
-Date: 2021-04-06
+Version: 1.2
+Date: 2022-06-05
 Authors@R: c(person("Marie", "Davidian", role = "aut"),
              person("A.A.", "Tsiatis", role = "aut"),
-             person("Shannon", "Holloway", role = c("aut", "cre"),
-                     email = "sthollow@ncsu.edu"))
+             person("Shannon T.", "Holloway", role = c("aut", "cre"),
+                     email = "shannon.t.holloway@gmail.com"))
 Description: Implements methods for inference on potential waning of vaccine
     efficacy and for estimation of vaccine efficacy at a user-specified time
     after vaccination based on data from a randomized, double-blind,
@@ -27,9 +27,9 @@ Collate: 'entryFit.R' 'gFunctions.R' 'estimateb.R' 'estimateu.R'
         'ulbound.R' 'pre_dNYu.R' 'pre_dNYb.R' 'esttheta.R'
         'plot.VEwaning.R' 'print.VEwaning.R' 'psiFit.R' 'unblindFit.R'
         've.R' 'veWaning.R' 'veWaningData.R'
-Packaged: 2021-04-06 19:48:27 UTC; sthollow
+Packaged: 2022-06-05 17:06:35 UTC; 19194
 Author: Marie Davidian [aut],
   A.A. Tsiatis [aut],
-  Shannon Holloway [aut, cre]
-Maintainer: Shannon Holloway <sthollow@ncsu.edu>
-Date/Publication: 2021-04-08 08:20:02 UTC
+  Shannon T. Holloway [aut, cre]
+Maintainer: Shannon T. Holloway <shannon.t.holloway@gmail.com>
+Date/Publication: 2022-06-07 12:00:16 UTC
