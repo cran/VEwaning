@@ -49,7 +49,7 @@
 #'   If a LHS is provided, it is ignored.
 #'
 #' @param gFunc A character object. The model of infection rates. Must be one
-#'   of {'lin', 'piece', 'splin', 'spcub'} for the linear,
+#'   of \{'lin', 'piece', 'splin', 'spcub'\} for the linear,
 #'   piecewise constant, linear spline, and cubic spline models respectively
 #'
 #' @param lag A numeric object. The lag time between the initial vaccine

@@ -57,7 +57,7 @@ for participants with Gamma = 2.
 If a LHS is provided, it is ignored.}
 
 \item{gFunc}{A character object. The model of infection rates. Must be one
-of {'lin', 'piece', 'splin', 'spcub'} for the linear,
+of \{'lin', 'piece', 'splin', 'spcub'\} for the linear,
 piecewise constant, linear spline, and cubic spline models respectively}
 
 \item{v}{A numeric vector. The knots or cut-offs to be used by gFunc.
@@ -125,7 +125,7 @@ Implements methods for inference on potential waning of vaccine
    methods also allow adjustment for possible confounding via inverse
    probability weighting through specification of models for the trial
    entry process, unblinding mechanisms, and the probability an unblinded
-   placebo participant accepts study vaccine:  Tsiatis, A. A. and Davidian,
+   placebo participant accepts study vaccine. Tsiatis, A. A. and Davidian,
    M. (2021) <arXiv:2102.13103>
 }
 \details{
