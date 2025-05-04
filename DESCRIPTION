@@ -1,8 +1,8 @@
 Package: VEwaning
 Type: Package
 Title: Vaccine Efficacy Over Time
-Version: 1.3
-Date: 2023-12-11
+Version: 1.4
+Date: 2025-05-04
 Authors@R: c(person("Marie", "Davidian", role = "aut"),
              person("A.A.", "Tsiatis", role = "aut"),
              person("Shannon T.", "Holloway", role = c("aut", "cre"),
@@ -16,7 +16,7 @@ Description: Implements methods for inference on potential waning of vaccine
     probability weighting through specification of models for the trial
     entry process, unblinding mechanisms, and the probability an unblinded
     placebo participant accepts study vaccine:  Tsiatis, A. A. and Davidian,
-    M. (2021) <arXiv:2102.13103> .
+    M. (2022) <doi:10.1111/biom.13509>.
 License: GPL-2
 Depends: R (>= 2.10), survival, stats, graphics, ggplot2
 NeedsCompilation: no
@@ -27,9 +27,9 @@ Collate: 'entryFit.R' 'gFunctions.R' 'estimateb.R' 'estimateu.R'
         'ulbound.R' 'pre_dNYu.R' 'pre_dNYb.R' 'esttheta.R'
         'plot.VEwaning.R' 'print.VEwaning.R' 'psiFit.R' 'unblindFit.R'
         've.R' 'veWaning.R' 'veWaningData.R'
-Packaged: 2023-12-13 21:10:42 UTC; 19194
+Packaged: 2025-05-04 16:16:08 UTC; 19194
 Author: Marie Davidian [aut],
   A.A. Tsiatis [aut],
   Shannon T. Holloway [aut, cre]
 Maintainer: Shannon T. Holloway <shannon.t.holloway@gmail.com>
-Date/Publication: 2023-12-13 21:30:02 UTC
+Date/Publication: 2025-05-04 16:40:02 UTC
